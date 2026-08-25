@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Montserrat:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 30 35% 16%;
+    --card: 0 0% 100%;
+    --card-foreground: 30 35% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 30 35% 16%;
+    --primary: 11 64% 49%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 30 37% 93%;
+    --secondary-foreground: 30 35% 16%;
+    --muted: 30 37% 93%;
+    --muted-foreground: 30 20% 40%;
+    --accent: 30 37% 93%;
+    --accent-foreground: 30 35% 16%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 35% 16% / 0.18;
+    --input: 30 35% 16% / 0.18;
+    --ring: 11 64% 49%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-brown font-sans antialiased;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5 {
+    @apply font-serif;
+    line-height: 1.1;
+  }
+
+  h1 {
+    @apply text-5xl md:text-7xl lg:text-8xl;
+  }
+
+  h2 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h3 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h4 {
+    @apply text-2xl md:text-3xl;
+  }
+}
+
+@layer components {
+  .btn-terracotta {
+    @apply inline-flex items-center gap-2 px-6 py-3 border border-terracotta text-terracotta uppercase text-sm font-medium tracking-wider transition-all duration-300;
+  }
+  .btn-terracotta:hover {
+    @apply bg-terracotta text-white;
+  }
+
+  .btn-white {
+    @apply inline-flex items-center gap-2 px-6 py-3 border border-white text-white uppercase text-sm font-medium tracking-wider transition-all duration-300;
+  }
+  .btn-white:hover {
+    @apply bg-white text-brown;
+  }
+
+  .btn-brown {
+    @apply inline-flex items-center gap-2 px-6 py-3 border border-brown text-brown uppercase text-sm font-medium tracking-wider transition-all duration-300;
+  }
+  .btn-brown:hover {
+    @apply bg-terracotta/15 border-terracotta text-terracotta;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  .container-custom {
+    @apply max-w-container mx-auto px-5 md:px-10;
+  }
+}

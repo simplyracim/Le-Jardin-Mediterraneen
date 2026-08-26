@@ -16,13 +16,13 @@ export const positions: JobPosition[] = [
     id: 'server',
     title: 'Server / Waitstaff',
     type: 'Part-time / Full-time',
-    description: 'Provide exceptional dining experiences to our guests. Knowledge of Mediterranean cuisine and wine is an asset.',
+    description: 'Provide exceptional dining experiences to our guests. Knowledge of Mediterranean cuisine and beverages is an asset.',
   },
   {
     id: 'bartender',
-    title: 'Bartender',
+    title: 'Beverage Specialist / Barista',
     type: 'Part-time',
-    description: 'Craft cocktails and serve beverages with flair. Experience with Mediterranean-inspired cocktails preferred.',
+    description: 'Craft specialty mocktails, coffees, and teas, and serve beverages with flair. Experience with Mediterranean-inspired specialty drinks preferred.',
   },
   {
     id: 'dishwasher',

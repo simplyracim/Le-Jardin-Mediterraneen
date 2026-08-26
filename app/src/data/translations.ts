@@ -37,7 +37,7 @@ export const translations = {
       heading: 'Our Menus',
       lunch: { title: 'Lunch', desc: 'A light yet flavourful midday selection.', cta: 'See Menu' },
       dinner: { title: 'Dinner', desc: 'An elegant evening menu designed to savour.', cta: 'See Menu' },
-      cocktails: { title: 'Cocktails & Wine', desc: 'Handcrafted cocktails and a curated wine selection.', cta: 'See Menu' },
+      cocktails: { title: 'Mocktails & Specialty Drinks', desc: 'Handcrafted mocktails and curated refreshing drinks.', cta: 'See Menu' },
     },
     chef: {
       label: 'Meet Our Chef',
@@ -109,7 +109,7 @@ export const translations = {
       seating: 'Seating Preference',
       indoor: 'Indoor',
       outdoor: 'Outdoor',
-      bar: 'Bar',
+      bar: 'Counter',
       confirm: 'Confirm Reservation',
       policies: [
         'Reservations are held for 15 minutes past the booked time.',
@@ -143,7 +143,7 @@ export const translations = {
         'Dedicated event coordinator',
         'Audio-visual equipment available',
         'Floral and decor arrangements',
-        'Wine pairing recommendations',
+        'Mocktail pairing recommendations',
       ],
       inquire: 'Inquire Now',
       formHeading: 'Plan Your Event',
@@ -161,7 +161,7 @@ export const translations = {
       storyBody: 'Treat your loved ones to an unforgettable dining experience at Le Jardin Méditerranéen. Our gift cards are perfect for birthdays, anniversaries, holidays, or simply to say thank you. Let them discover the rich flavours of the Mediterranean and Algeria in our warm, welcoming atmosphere.',
       chooseHeading: 'Choose Your Gift Card',
       cards: [
-        { amount: '7500 DA', desc: 'Perfect for a light lunch or cocktails.' },
+        { amount: '7500 DA', desc: 'Perfect for a light lunch or mocktails.' },
         { amount: '15000 DA', desc: 'Ideal for a romantic dinner for two.' },
         { amount: '30000 DA', desc: 'The ultimate dining experience.' },
       ],
@@ -252,7 +252,7 @@ export const translations = {
       heading: 'Nos Menus',
       lunch: { title: 'Déjeuner', desc: 'Une sélection légère mais savoureuse pour le midi.', cta: 'Voir le Menu' },
       dinner: { title: 'Dîner', desc: 'Un menu de soirée élégant conçu pour savourer.', cta: 'Voir le Menu' },
-      cocktails: { title: 'Cocktails & Vins', desc: 'Cocktails artisanaux et une sélection de vins soignée.', cta: 'Voir le Menu' },
+      cocktails: { title: 'Mocktails & Boissons Maison', desc: 'Mocktails artisanaux et une sélection de boissons rafraîchissantes.', cta: 'Voir le Menu' },
     },
     chef: {
       label: 'Rencontrez Notre Chef',
@@ -324,7 +324,7 @@ export const translations = {
       seating: 'Préférence de Placement',
       indoor: 'Intérieur',
       outdoor: 'Extérieur',
-      bar: 'Bar',
+      bar: 'Comptoir',
       confirm: 'Confirmer la Réservation',
       policies: [
         'Les réservations sont maintenues 15 minutes après l\'heure réservée.',
@@ -358,7 +358,7 @@ export const translations = {
         'Coordinateur d\'événement dédié',
         'Équipement audiovisuel disponible',
         'Arrangements floraux et décoratifs',
-        'Recommandations d\'accords vins',
+        'Recommandations d\'accords mocktails',
       ],
       inquire: 'Demander des Informations',
       formHeading: 'Planifiez Votre Événement',
@@ -376,7 +376,7 @@ export const translations = {
       storyBody: "Offrez à vos proches une expérience gastronomique inoubliable au Jardin Méditerranéen. Nos cartes cadeaux sont parfaites pour les anniversaires, les anniversaires de mariage, les fêtes, ou simplement pour dire merci. Laissez-les découvrir les riches saveurs de la Méditerranée et de l'Algérie dans notre atmosphère chaleureuse et accueillante.",
       chooseHeading: 'Choisissez Votre Carte Cadeau',
       cards: [
-        { amount: '7500 DA', desc: 'Parfait pour un léger déjeuner ou des cocktails.' },
+        { amount: '7500 DA', desc: 'Parfait pour un léger déjeuner ou des mocktails.' },
         { amount: '15000 DA', desc: 'Idéal pour un dîner romantique pour deux.' },
         { amount: '30000 DA', desc: "L'expérience gastronomique ultime." },
       ],

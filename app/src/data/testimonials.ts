@@ -26,13 +26,13 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: '4',
-    quote: 'We celebrated our anniversary here, and it was magical. The wine selection is exceptional.',
+    quote: 'We celebrated our anniversary here, and it was magical. The specialty drinks selection is exceptional.',
     author: 'Michael & Anna L.',
     date: '11/15/2025',
   },
   {
     id: '5',
-    quote: 'From the cocktails to the dessert, every course was a journey. Highly recommend!',
+    quote: 'From the mocktails to the dessert, every course was a journey. Highly recommend!',
     author: 'David K.',
     date: '10/30/2025',
   },

@@ -9,7 +9,7 @@ const features = [
   'Dedicated event coordinator',
   'Audio-visual equipment available',
   'Floral and decor arrangements',
-  'Wine pairing recommendations',
+  'Mocktail pairing recommendations',
 ];
 
 export default function EventsPage() {

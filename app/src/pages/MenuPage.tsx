@@ -111,6 +111,11 @@ export default function MenuPage() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-6">
                   {category.items.map((item) => (
                     <div key={item.id} className="flex justify-between items-start gap-4 pb-6 border-b border-brown/10">
+                      {item.image && (
+                        <div className="w-20 h-20 md:w-24 md:h-24 shrink-0 overflow-hidden rounded-md shadow-sm border border-brown/10">
+                          <img src={item.image} alt={item.name} className="w-full h-full object-cover transition-transform duration-500 hover:scale-110" />
+                        </div>
+                      )}
                       <div className="flex-1">
                         <div className="flex items-center gap-2 mb-1">
                           <h4 className="text-sm font-medium uppercase tracking-wider text-brown">{item.name}</h4>
@@ -124,7 +129,7 @@ export default function MenuPage() {
                         </div>
                         <p className="text-sm text-brown/60">{item.description}</p>
                       </div>
-                      <span className="text-sm font-medium text-brown whitespace-nowrap">${item.price}</span>
+                      <span className="text-sm font-medium text-brown whitespace-nowrap">{item.price} DA</span>
                     </div>
                   ))}
                 </div>

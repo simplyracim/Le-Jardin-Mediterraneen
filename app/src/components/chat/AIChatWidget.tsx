@@ -10,7 +10,7 @@ interface ChatMessage {
 }
 
 const AI_RESPONSES_EN: Record<string, string> = {
-  menu: "Our menu features Mediterranean and Algerian cuisine. Highlights include our Mezze Platter ($24), Lamb Couscous ($28), and Seafood Tagine ($27). We also have vegetarian and gluten-free options. Would you like to see our full menu?",
+  menu: "Our menu features Mediterranean and Algerian cuisine. Highlights include our Mezze Platter (3600 DA), Lamb Couscous (4200 DA), and Seafood Tagine (4050 DA). We also have vegetarian and gluten-free options. Would you like to see our full menu?",
   hours: "We're open Monday–Thursday 11:30 AM–10:00 PM, Friday–Saturday 11:30 AM–11:00 PM, and Sunday 10:00 AM–9:00 PM.",
   reservation: "You can make a reservation through our website! Just visit the Reservations page and fill out the form. For parties of 8 or more, please call us at (438) 330-6424.",
   location: "We're located at 1234 Rue Saint-Denis, Montreal, QC H2X 3J6. We're in the heart of the Plateau-Mont-Royal neighbourhood!",
@@ -19,7 +19,7 @@ const AI_RESPONSES_EN: Record<string, string> = {
 };
 
 const AI_RESPONSES_FR: Record<string, string> = {
-  menu: "Notre menu propose une cuisine méditerranéenne et algérienne. Les points forts incluent notre Plateau de Mezzé (24$), le Couscous à l'agneau (28$) et le Tajine de fruits de mer (27$). Nous avons aussi des options végétariennes et sans gluten. Souhaitez-vous voir notre menu complet?",
+  menu: "Notre menu propose une cuisine méditerranéenne et algérienne. Les points forts incluent notre Plateau de Mezzé (3600 DA), le Couscous à l'agneau (4200 DA) et le Tajine de fruits de mer (4050 DA). Nous avons aussi des options végétariennes et sans gluten. Souhaitez-vous voir notre menu complet?",
   hours: "Nous sommes ouverts du lundi au jeudi de 11h30 à 22h00, le vendredi et samedi de 11h30 à 23h00, et le dimanche de 10h00 à 21h00.",
   reservation: "Vous pouvez faire une réservation via notre site web! Visitez simplement la page Réservations et remplissez le formulaire. Pour les groupes de 8 personnes ou plus, veuillez nous appeler au (438) 330-6424.",
   location: "Nous sommes situés au 1234 Rue Saint-Denis, Montréal, QC H2X 3J6. Nous sommes au coeur du quartier Plateau-Mont-Royal!",

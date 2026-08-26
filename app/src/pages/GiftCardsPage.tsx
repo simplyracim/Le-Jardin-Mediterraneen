@@ -6,9 +6,9 @@ export default function GiftCardsPage() {
   const { language } = useLanguage();
 
   const cards = [
-    { amount: '$50', desc: language === 'fr' ? 'Parfait pour un léger déjeuner ou des cocktails.' : 'Perfect for a light lunch or cocktails.' },
-    { amount: '$100', desc: language === 'fr' ? 'Idéal pour un dîner romantique pour deux.' : 'Ideal for a romantic dinner for two.' },
-    { amount: '$200', desc: language === 'fr' ? "L'expérience gastronomique ultime." : 'The ultimate dining experience.' },
+    { amount: '7500 DA', desc: language === 'fr' ? 'Parfait pour un léger déjeuner ou des cocktails.' : 'Perfect for a light lunch or cocktails.' },
+    { amount: '15000 DA', desc: language === 'fr' ? 'Idéal pour un dîner romantique pour deux.' : 'Ideal for a romantic dinner for two.' },
+    { amount: '30000 DA', desc: language === 'fr' ? "L'expérience gastronomique ultime." : 'The ultimate dining experience.' },
   ];
 
   return (
